@@ -13,13 +13,13 @@ export function Hero() {
       <Header />
 
       <div className="pb-16 mt-auto text-center relative">
-        <Pill className="mb-6">БЕТА-ВЕРСИЯ</Pill>
+        <Pill className="mb-6">РЕЕСТР МИНПРОМТОРГА</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
-          Раскройте ваш <br />
-          <i className="font-light">будущий</i> потенциал
+          Производим и<br />
+          <i className="font-light">поставляем</i> технику
         </h1>
-        <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[440px] mx-auto">
-          Через стратегии постоянного инвестирования, превосходящие рынок
+        <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[480px] mx-auto">
+          Компьютерная техника и комплектующие для государственных и коммерческих корпораций. Оснащаем рабочие места современным оборудованием.
         </p>
 
         <a className="contents max-sm:hidden" href="#contact">
@@ -28,7 +28,7 @@ export function Hero() {
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Связаться с нами]
+            [Запросить коммерческое предложение]
           </Button>
         </a>
         <a className="contents sm:hidden" href="#contact">
@@ -38,7 +38,7 @@ export function Hero() {
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
-            [Связаться с нами]
+            [Запросить КП]
           </Button>
         </a>
       </div>
