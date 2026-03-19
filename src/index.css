@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
+    --background: 222 45% 14%;
     --foreground: 0 0% 100%;
 
-    --card: 0 0% 0%;
+    --card: 222 45% 14%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 0%;
+    --popover: 222 45% 14%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 48 100% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 190 57% 55%;
+    --primary-foreground: 222 45% 14%;
 
-    --secondary: 0 0% 15%;
+    --secondary: 222 45% 22%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 222 45% 22%;
+    --muted-foreground: 210 30% 70%;
 
-    --accent: 0 0% 15%;
+    --accent: 222 45% 22%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 26%;
-    --input: 0 0% 26%;
-    --ring: 48 100% 50%;
+    --border: 222 35% 35%;
+    --input: 222 35% 35%;
+    --ring: 190 57% 55%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 5%;
+    --sidebar-background: 222 45% 12%;
     --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 48 100% 50%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 15%;
+    --sidebar-primary: 190 57% 55%;
+    --sidebar-primary-foreground: 222 45% 14%;
+    --sidebar-accent: 222 45% 22%;
     --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 0 0% 15%;
-    --sidebar-ring: 48 100% 50%;
+    --sidebar-border: 222 45% 22%;
+    --sidebar-ring: 190 57% 55%;
   }
 }
 
@@ -82,7 +82,7 @@
   }
 
   .font-sentient {
-    font-family: 'PT Serif', serif;
+    font-family: "PT Serif", serif;
   }
 
   .shadow-glow {
@@ -106,9 +106,13 @@
 
 /* Vignette effect overlay */
 #webgl::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: radial-gradient(ellipse at center, transparent 30%, rgba(0,0,0,0.6) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    transparent 30%,
+    rgba(15, 25, 55, 0.7) 100%
+  );
 }
